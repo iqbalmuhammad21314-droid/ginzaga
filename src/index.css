@@ -1,0 +1,121 @@
+@import "tailwindcss";
+
+:root {
+  --ginzaga-blue: #0a4db0;
+  --ginzaga-blue-hover: #083c8a;
+  --ginzaga-navy: #002244;
+  --ginzaga-light-blue: #e3efff;
+  --bg-color: #f8faff;
+}
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: #1e293b;
+    background-color: var(--bg-color);
+    background-image: 
+      radial-gradient(circle at 50% 8%, rgba(190, 220, 255, 0.5) 0%, transparent 48%),
+      radial-gradient(circle at 85% 40%, rgba(210, 235, 255, 0.35) 0%, transparent 45%),
+      radial-gradient(circle at 15% 65%, rgba(200, 230, 255, 0.4) 0%, transparent 50%),
+      radial-gradient(circle at 50% 90%, rgba(218, 238, 255, 0.3) 0%, transparent 45%);
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+  }
+}
+
+/* Subtle background grid pattern overlay */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: 
+    radial-gradient(rgba(10, 77, 176, 0.08) 1px, transparent 1px);
+  background-size: 32px 32px;
+  pointer-events: none;
+  z-index: -1;
+  opacity: 0.6;
+}
+
+/* Card Styling faithfully reproducing the screenshot with elevated aesthetics */
+.portfolio-card {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-radius: 1.25rem;
+  border: 1px solid rgba(219, 234, 254, 0.8);
+  box-shadow: 0 10px 30px -5px rgba(10, 77, 176, 0.05), 0 4px 12px -2px rgba(15, 23, 42, 0.03);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-3px);
+  border-color: rgba(147, 197, 253, 0.9);
+  box-shadow: 0 20px 40px -8px rgba(10, 77, 176, 0.1), 0 8px 20px -4px rgba(15, 23, 42, 0.04);
+}
+
+.font-mono-spaced {
+  font-family: 'Space Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  letter-spacing: 0.05em;
+}
+
+/* Badge styling */
+.glass-badge {
+  background: rgba(235, 245, 255, 0.8);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(191, 219, 254, 0.7);
+  color: #0a4db0;
+}
+
+/* Modal and utility classes */
+.card-dark {
+  background: linear-gradient(180deg, rgba(30, 41, 59, 0.98), rgba(15, 23, 42, 0.99));
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.glass-top {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(226, 232, 240, 0.6);
+}
+
+.glass-quote {
+  background: rgba(255, 255, 255, 0.04);
+  border-left: 3px solid #38bdf8;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.profile-avatar {
+  background: linear-gradient(135deg, rgba(10, 77, 176, 0.3), rgba(56, 189, 248, 0.2));
+  border-radius: 9999px;
+  padding: 4px;
+  display: inline-block;
+}
+
+.btn-primary {
+  background: var(--ginzaga-blue);
+  color: white;
+  border-radius: 0.75rem;
+  padding: 0.625rem 1.25rem;
+  font-weight: 600;
+  transition: all 0.25s ease;
+}
+
+.btn-primary:hover {
+  background: var(--ginzaga-blue-hover);
+  box-shadow: 0 4px 14px rgba(10, 77, 176, 0.25);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+
+

@@ -1,0 +1,6 @@
+{
+  "name": "Ginzaga",
+  "description": "Tampilan tim Ginzaga dan penjelajah profil.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
