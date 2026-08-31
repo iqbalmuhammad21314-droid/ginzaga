@@ -128,10 +128,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     ],
     experience: [
       { title: 'Junior Backend Engineer', company: 'TechNusantara', years: '2022 - 2023' },
-      { title: 'Fullstack Developer Intern', company: 'iCraftDS', years: '2026' }
-    ],
-    organizations: [
-      { role: 'Anggota', organization: 'Organisasi siswa', years: '2021 - 2023' }
+      { title: 'Fullstack Developer Intern', company: 'iCraftDS', years: '2024 - 2025' }
     ],
     projects: [
       {
