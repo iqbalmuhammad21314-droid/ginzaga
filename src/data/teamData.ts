@@ -60,34 +60,34 @@ export const TEAM_MEMBERS: TeamMember[] = [
     department: 'Desain & Pengalaman Pengguna',
     location: 'Bandung, Indonesia',
     yearsOfExperience: 3,
-    bio: 'Fariz fokus pada desain antarmuka dan pengalaman pengguna dengan pendekatan riset pengguna dan prototyping cepat. Terampil merancang alur yang jelas dan aksesibel.',
-    quote: 'Desain yang baik memudahkan pengguna mencapai tujuannya.',
+    bio: 'Saya adalah mahasiswa Teknik Informatika yang memiliki ketertarikan pada UI/UX Design dan pengembangan produk digital. Saya senang mengubah ide menjadi tampilan antarmuka yang sederhana, informatif, dan mudah digunakan. Saat mengerjakan sebuah desain, saya berusaha memahami kebutuhan pengguna sebelum menentukan solusi yang tepat.',
+    quote: 'Menciptakan desain yang sederhana, fungsional, dan mudah digunakan.',
     skills: ['UX Research', 'Prototyping', 'Figma', 'Design Systems', 'Aksesibilitas'],
     tools: ['Figma', 'Miro', 'Framer', 'Principle'],
     photoUrl: '/assets/fariz.jpeg',
     email: '',
     socials: { linkedin: 'https://linkedin.com/in/', twitter: 'https://twitter.com/', website: 'https://' },
     keyHighlights: [
-      'Penerima Red Dot Design Award 2023 untuk Sistem Antarmuka Kognitif',
-      'Merintis pedoman desain umpan balik haptik untuk terminal layar sentuh enterprise',
-      'Pembicara utama di Nordic Design Congress & Interaction Tokyo'
+      'Berhasil mengembangkan antarmuka website Fidzzmedia yang responsif',
+      'Mengimplementasikan katalog produk dan alur pemesanan pada platform web',
+      'Mengintegrasikan tampilan frontend dengan sistem autentikasi dan fitur aplikasi'
     ],
     projects: [
       {
-        title: 'Aura Spatial OS',
-        category: 'Sistem Interaksi',
-        description: 'Model navigasi gestur dinamis dan fisika cair yang dirancang untuk komputasi spasial dan dasbor kontekstual.',
-        year: '2024',
-        metrics: 'Mengurangi kelelahan tugas kognitif sebesar 35%',
-        tags: ['Spatial UI', 'Motion Design', 'Ergonomics']
+        title: 'Fidzzmedia Web Platform',
+        category: 'Web Development',
+        description: 'Platform web untuk digitalisasi pemesanan produk pakaian dan merchandise custom. Dikembangkan untuk membantu pelanggan melihat katalog, melakukan pemesanan, serta memantau proses produksi secara lebih terstruktur.',
+        year: '2026',
+        metrics: 'Proses pemesanan lebih terstruktur dan mudah diakses',
+        tags: ['WebDevelopment', 'Frontend', 'ResponsiveUI']
       },
       {
-        title: 'Fintech Precision Suite',
-        category: 'Produk Enterprise',
-        description: 'Kokpit trading ber-densitas tinggi dengan transisi hierarki visual instan dan luminansi adaptif gelap/terang.',
-        year: '2023',
-        metrics: 'Tolok ukur interaksi latensi-nol',
-        tags: ['Figma', 'Accessibility', 'Micro-interactions']
+        title: 'CloudNote',
+        category: 'Cloud Application',
+        description: 'Aplikasi pencatatan berbasis cloud yang dirancang untuk membantu pengguna menyimpan, mengelola, dan mengakses catatan secara lebih praktis.',
+        year: '2026',
+        metrics: 'Mempermudah pengelolaan dan akses catatan secara terpusat',
+        tags: ['CloudComputing', 'WebApplication', 'Database']
       }
     ],
     education: [
@@ -97,7 +97,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
       { title: 'UI/UX Intern', company: 'iCraftDS', years: '2026', notes: 'Prototyping, user testing, dan pembuatan design system.' }
     ],
     organizations: [
-      { role: 'Volunteer Designer', organization: 'Komunitas Desain UNIKOM', years: '2023 - sekarang' }
+      { role: 'Anggota', organization: 'Organisasi siswa', years: '2022 - 2023' }
     ]
   },
   {
