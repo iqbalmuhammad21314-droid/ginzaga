@@ -131,7 +131,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
       { title: 'Fullstack Developer Intern', company: 'iCraftDS', years: '2026' }
     ],
     organizations: [
-      { role: 'Anggota', organization: 'Organisasi siswa', years: '2023 - sekarang' }
+      { role: 'Anggota', organization: 'Organisasi siswa', years: '2021 - 2023' }
     ],
     projects: [
       {
