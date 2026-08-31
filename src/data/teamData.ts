@@ -106,7 +106,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
     role: 'Back-End Developer',
     department: 'Pengembangan Back-End',
     location: 'Bandung, Indonesia',
-    yearsOfExperience: 2,
+    yearsOfExperience: 3,
     bio: 'Berfokus pada perancangan arsitektur sistem, pengelolaan database relasional, dan pengembangan API yang andal. Memiliki pengalaman bekerja dengan ekosistem PHP (Laravel) serta analisis data menggunakan Python.',
     quote: 'Layanan backend dan struktur data yang baik adalah fondasi dari pengalaman pengguna yang stabil dan terukur.',
     skills: ['PHP', 'Laravel', 'API Design', 'MySQL', 'Python', 'System Architecture'],
