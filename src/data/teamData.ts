@@ -102,49 +102,61 @@ export const TEAM_MEMBERS: TeamMember[] = [
   },
   {
     id: 'rizky-raditya',
-    name: 'Rizky Raditya',
-    role: 'Back-End',
+    name: 'Mochamad Rizky Raditya Pratama',
+    role: 'Back-End Developer',
     department: 'Pengembangan Back-End',
     location: 'Bandung, Indonesia',
-    yearsOfExperience: 3,
-    bio: 'Rizky mengembangkan layanan server dan API yang andal serta terukur. Berpengalaman dengan Node.js, database relasional, dan orkestrasi container.',
-    quote: 'Layanan backend yang baik adalah fondasi pengalaman pengguna yang stabil.',
-    skills: ['Node.js', 'Express', 'API Design', 'PostgreSQL', 'Docker'],
-    tools: ['Node.js', 'Express', 'PostgreSQL', 'Docker', 'Redis'],
-    photoUrl: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=600&q=80',
-    email: '',
-    socials: { linkedin: 'https://linkedin.com/in/', github: 'https://github.com/', twitter: 'https://twitter.com/' },
+    yearsOfExperience: 2,
+    bio: 'Berfokus pada perancangan arsitektur sistem, pengelolaan database relasional, dan pengembangan API yang andal. Memiliki pengalaman bekerja dengan ekosistem PHP (Laravel) serta analisis data menggunakan Python.',
+    quote: 'Layanan backend dan struktur data yang baik adalah fondasi dari pengalaman pengguna yang stabil dan terukur.',
+    skills: ['PHP', 'Laravel', 'API Design', 'MySQL', 'Python', 'System Architecture'],
+    tools: ['Laravel', 'MySQL', 'Postman', 'Python', 'Git'],
+    photoUrl: '/assets/rizky.jpeg',
+    email: 'radityar500@gmail.com',
+    socials: { linkedin: 'www.linkedin.com/in/mochamad-rizky-raditya-763156292', github: 'https://github.com/rizkyraditya1625' },
     keyHighlights: [
-      'Mengarahkan roadmap sistem untuk modernisasi logistik perusahaan besar',
-      'Merancang taksonomi lintas-departemen yang menyatukan banyak silo data',
-      'Kontributor reguler untuk publikasi tentang kelincahan digital'
+      'Membangun arsitektur backend, sistem autentikasi, dan API transaksi terproteksi untuk platform web Fidzzmedia',
+      'Merancang skema database relasional dan Data Flow Diagram (DFD) untuk aplikasi reservasi tiket BuSinAja',
+      'Menyusun spesifikasi teknis dan implementasi model machine learning (MobileNetV2) untuk prototipe IoT pemilah sampah'
     ],
     education: [
-      { degree: 'S1 Teknik Informatika', institution: 'Universitas Komputer Indonesia (UNIKOM)', years: '2023 - sekarang' }
+      {
+        degree: 'S1 Teknik Informatika',
+        institution: 'Universitas Komputer Indonesia (UNIKOM)',
+        years: '2023 - sekarang'
+      }
     ],
     experience: [
       { title: 'Junior Backend Engineer', company: 'TechNusantara', years: '2022 - 2023' },
-      { title: 'Fullstack Developer Intern', company: 'iCraftDS', years: '2025' }
+      { title: 'Fullstack Developer Intern', company: 'iCraftDS', years: '2026' }
     ],
     organizations: [
-      { role: 'Ketua Divisi R&D', organization: 'Kelompok Studi Pengembang Web UNIKOM', years: '2023 - sekarang' }
+      { role: 'Anggota', organization: 'Organisasi siswa', years: '2023 - sekarang' }
     ],
     projects: [
       {
-        title: 'Global Supply Chain Fabric',
-        category: 'Strategi Sistem',
-        description: 'Kerangka data operasional komprehensif yang mengintegrasikan analitik prediktif dengan tata kelola vendor otomatis.',
-        year: '2024',
-        metrics: 'Pengurangan latensi pemrosesan tahunan sebesar $18M',
-        tags: ['Systems Thinking', 'Data Taxonomy', 'Enterprise Strategy']
+        title: 'Platform Web Konveksi Fidzzmedia',
+        category: 'Pengembangan Backend',
+        description: 'Pengembangan infrastruktur backend untuk platform konveksi, meliputi implementasi sistem routing, pengamanan akses halaman transaksi, dan manajemen autentikasi berbasis sesi.',
+        year: '2026',
+        metrics: 'Membangun fungsionalitas inti untuk mendukung alur pemesanan digital end-to-end, pelacakan produksi real-time, dan riwayat pesanan',
+        tags: ['Backend Development', 'API Design', 'PHP', 'Laravel', 'Web Security']
       },
       {
-        title: 'Nexus Knowledge Network',
-        category: 'Arsitektur Informasi',
-        description: 'Graf pengetahuan semantik yang menghubungkan deliverable desain, repositori kode, dan inisiatif bisnis strategis.',
-        year: '2023',
-        metrics: 'Digunakan di lebih dari 2.400 tim multidisipliner',
-        tags: ['Knowledge Graphs', 'Governance', 'Optimization']
+        title: 'Aplikasi Reservasi Tiket BuSinAja',
+        category: 'Arsitektur Sistem & Database',
+        description: 'Perancangan arsitektur sistem menyeluruh, pemodelan Data Flow Diagram (DFD), dan penyusunan skema relasi tabel database untuk aplikasi pemesanan tiket bus.',
+        year: '2025',
+        metrics: 'Memodelkan struktur data logis untuk mendukung integrasi pemesanan tiket dan jadwal keberangkatan',
+        tags: ['System Architecture', 'Database Design', 'DFD', 'Relational Database']
+      },
+      {
+        title: 'Prototipe IoT Pemilah Sampah Eco-Sort',
+        category: 'Machine Learning & IoT',
+        description: 'Penyusunan proposal teknis dan pengembangan sistem untuk prototipe alat pemilah sampah otomatis menggunakan Raspberry Pi dan arsitektur pendeteksi objek MobileNetV2.',
+        year: '2026',
+        metrics: 'Mengintegrasikan kemampuan komputasi perangkat keras dengan model klasifikasi objek',
+        tags: ['Python', 'Machine Learning', 'MobileNetV2', 'Raspberry Pi']
       }
     ]
   }
