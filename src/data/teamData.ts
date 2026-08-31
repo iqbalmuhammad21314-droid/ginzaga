@@ -103,7 +103,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
   {
     id: 'rizky-raditya',
     name: 'Mochamad Rizky Raditya Pratama',
-    role: 'Back-End Developer',
+    role: 'Back-End',
     department: 'Pengembangan Back-End',
     location: 'Bandung, Indonesia',
     yearsOfExperience: 3,
